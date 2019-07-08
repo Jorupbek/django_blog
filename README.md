@@ -1,5 +1,4 @@
 # This is Blog project from Django book
-[![Walele|solid](https://cldup.com/dTxpPi9lDf.thumb.png)]
 
 >This is a platform for telling about your day. 
 >telling guides for making interesting this
