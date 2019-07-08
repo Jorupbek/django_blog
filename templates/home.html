@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for post in all_posts %}
+        <div class="post-entry">
+            <h2><b>Название поста: </b><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
+            <b><i>содержание: </i>{{ post.body }}</b>
+            <h5><b>Автор: </b>{{ post.author.username }}</h5>
+        </div>
+    {% endfor %}
+{% endblock %}
