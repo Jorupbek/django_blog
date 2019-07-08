@@ -5,7 +5,7 @@
 
 ## Author of this project are student from group of Python from Makers
 
-*Jorupbek
+* Jorupbek
 
 You can download this project from 
 ``https://github.com/Jorupbek/django_blog.git``
